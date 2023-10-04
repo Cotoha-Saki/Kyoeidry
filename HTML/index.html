@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <link rel="stylesheet" href="/CSS/style.css">
     <link rel="stylesheet" href="/CSS/hamburger.css">
+    <link rel="stylesheet" href="/CSS/news.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <section>
         <a class="NoticeBanner" href="https://www.youtube.com/watch?v=yG_xbqL9Fss" target="_blank">
             <div class="NoticeBanner-Content">
-                <span class="NoticeBanner-Content-Text">※ここにお知らせなどを入れてください※</span>
+                <p class="NoticeBanner-Content-Text">※ここにお知らせなどを入れてください※</p>
             </div>
         </a>
     </section>
@@ -40,21 +41,16 @@
                 <li><a class="nav-text" href="#">店舗紹介</a></li>
                 <li><a class="nav-text" href="#">会社案内</a></li>
             </ul>
-            <ul class="menu-ultag">
-                <li>
-                    <div class="openbtn">
-                        <span></span><span></span><span></span>
-                    </div>
-                </li>
-            </ul>
         </div>
     </header>
 
     <!-- ハンバーガーメニュー  -->
-    <div class="test">
-        <input type="checkbox" id="check" class="hamburger">
-        <label for="check"><span></span></label>
-    </div>
+    <section>
+        <div class="hamburger">
+            <input type="checkbox" id="check" class="hamburger-input">
+            <label for="check"><span></span></label>
+        </div>
+    </section>
     
 
     <!-- スライドショー -->
@@ -71,7 +67,11 @@
         <div class="news-content">
             <ul class="news-list">
                 <li>2023.10.3</li>
-                <li>これはテストです</li>
+                <li class="news-l3">test</li>
+            </ul>
+            <ul class="news-list">
+                <li>2023.10.3</li>
+                <li>test</li>
             </ul>
         </div>
     </div>
