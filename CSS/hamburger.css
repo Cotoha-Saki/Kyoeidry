@@ -44,7 +44,7 @@
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   text-align: right;
   z-index: 10004;
   right: 30px;
