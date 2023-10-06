@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* フォント読み込み */
+@font-face {
+    font-family: 'Gn3';
+    src: url(/font/genshingothic-20150607/GenShinGothic-P-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'NSJ';
+    src: url(/font/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'KB';
+    src: url(/font/Koruri-20210720/Koruri-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'KE';
+    src: url(/font/Koruri-20210720/Koruri-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: 'KL';
+    src: url(/font/Koruri-20210720/Koruri-Light.ttf);
+}
+
+@font-face {
+    font-family: 'KR';
+    src: url(/font/Koruri-20210720/Koruri-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'KS';
+    src: url(/font/Koruri-20210720/Koruri-Semibold.ttf);
+}
+
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* お知らせバナー */
+.NoticeBanner {
+    z-index: 9998;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 35, 35);
+    overflow: hidden;
+    font-size: 17px;
+    font-family: 'KR';
+}
+
+.NoticeBanner .NoticeBanner-Content {
+    display: inline-block;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ffffff;
+    list-style: 30px;
+    padding-left: 100%;
+    white-space: nowrap;
+    animation: animate-banner 30s linear infinite;
+    transition: 0.3s;
+}
+
+.NoticeBanner .NoticeBanner-Content>* {
+    display: inline-block;
+}
+
+.NoticeBanner-Content-Text {
+    transition: 0.35s;
+}
+
+.NoticeBanner-Content-Text:hover {
+    transform: scale(0.9);
+    opacity: 50%;
+}
+
+@keyframes animate-banner {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
