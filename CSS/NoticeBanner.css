@@ -45,7 +45,7 @@
 
 /* お知らせバナー */
 .NoticeBanner {
-    z-index: 9998;
+    z-index: 1004;
     position: fixed;
     display: block;
     width: 100%;

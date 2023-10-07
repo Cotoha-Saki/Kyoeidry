@@ -45,7 +45,7 @@
 
 /* お知らせ */
 .news-content {
-    z-index: 1;
+    z-index: 997;
     position: relative;
     background-color: rgb(255, 226, 226);
     top: 35px;
@@ -67,16 +67,34 @@
 .news-content dl {
     padding-left: 30px;
     padding-right: 30px;
-    font-family: "KB";   
+    font-family: "KS";   
 }
 
 .news-content dt {
     float: left;
     padding: 15px 0px;
-    padding-right: 20px;
+    padding-right: 5px;
 }
 
 .news-content dd {
     border-bottom: 1px solid #ccc;
     padding: 15px 0px;
 }
+
+.news-content dl dt .red{
+    background-color:red;
+    border-radius:5px;
+    color:#fff;
+    margin:0 20px;
+    padding:5px 15px;
+    text-decoration:none;
+  }
+
+  .news-content dl dt .blue{
+    background-color:blue;
+    border-radius:5px;
+    color:#fff;
+    margin:0 20px;
+    padding:5px 15px;
+    text-decoration:none;
+  }

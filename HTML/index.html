@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/CSS/hamburger.css">
     <link rel="stylesheet" href="/CSS/news.css">
     <link rel="stylesheet" href="/CSS/NoticeBanner.css">
+    <link rel="stylesheet" href="/CSS/NavigationLine.css">
+    <link rel="stylesheet" href="/CSS/slider.css">
 </head>
 
 <body>
@@ -46,14 +48,21 @@
 
     <!-- ハンバーガーメニュー  -->
     <section>
-        <div class="hamburger">
-            <input type="checkbox" id="check" class="hamburger-input">
-            <label for="check"><span></span></label>
-        </div>
-        <div class="hamburger-nav">
-            <ul>
-
-            </ul>
+        <div class="NavigationOpen">
+            <nav>
+                <div class="hamburger-menu">
+                    <ul>
+                        <li><a href="#">サービス内容</a></li>
+                        <li><a href="#">サービス内容</a></li>
+                        <li><a href="#">サービス内容</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="buttom">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </section>
 
@@ -77,9 +86,9 @@
 
         <div class="news-content">
             <dl>
-                <dt>2023.10.6</dt>
+                <dt>2023.10.6<span class="red">重要なお知らせ</span></dt>
                 <dd>ハンバーガーメニューを制作中です</dd>
-                <dt>2023.10.6</dt>
+                <dt>2023.10.6<span class="blue">テスト</span></dt>
                 <dd>これはテストです</dd>
             </dl>
         </div>
@@ -94,6 +103,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/JS/slider.js"></script>
     <script src="/JS/menu.js"></script>
+    <script src="/JS/hamburger.js"></script>
 </body>
 
 </html>
