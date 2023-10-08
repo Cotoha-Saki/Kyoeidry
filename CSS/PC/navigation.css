@@ -68,37 +68,38 @@ body {
     display: flex;
     justify-content: space-around;
     margin: auto;
-
 }
 
 .nav ul li {
     list-style: none;
     line-height: 50px;
-    /* border-left: 2px solid rgb(165, 165, 165);
-    border-right: 2px solid rgb(165, 165, 165); */
+    transition: 0.2s;
+    border-left: 2px solid rgb(255, 224, 224);
+    border-right: 2px solid rgb(255, 224, 224);
+}
+
+.nav ul li:hover {
+    z-index: 994;
+    border-bottom: 3px solid #ff0000;
 }
 
 .nav ul li+li {
     border-left: 0px;
-    /* border-right: 2px solid rgb(165, 165, 165); */
 }
 
 .nav ul li .nav-text {
-    margin-right: 35px;
+    display: block;
     margin-left: 35px;
-    color: rgb(255, 48, 48);
+    margin-right: 35px;
+    color: rgb(255, 0, 0);
     font-family: 'KS';
     font-size: 20px;
     transition: 0.3s;
-    /* border-bottom: #ffffff solid 2px; */
 }
 
 .nav ul li .nav-text:hover {
-    opacity: 50%;
-    transform: scale(3.3);
+    opacity: 0.5;
 }
-
-
 
 .logo {
     z-index: 10000;
@@ -119,4 +120,3 @@ body {
     background-color: rgb(255, 63, 63);
 
 }
-

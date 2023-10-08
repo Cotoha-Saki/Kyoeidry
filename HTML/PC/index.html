@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="/img/faviconV2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/hamburger.css">
-    <link rel="stylesheet" href="/CSS/news.css">
-    <link rel="stylesheet" href="/CSS/NoticeBanner.css">
-    <link rel="stylesheet" href="/CSS/NavigationLine.css">
-    <link rel="stylesheet" href="/CSS/slider.css">
+  
+    <!-- PC用のCSS -->
+    <link rel="stylesheet" href="/CSS/PC/navigation.css">
+    <link rel="stylesheet" href="/CSS/PC/hamburger.css">
+    <link rel="stylesheet" href="/CSS/PC/news.css">
+    <link rel="stylesheet" href="/CSS/PC/NoticeBanner.css">
+    <link rel="stylesheet" href="/CSS/PC/slider.css">
 </head>
 
 <body>
@@ -52,9 +53,12 @@
             <nav>
                 <div class="hamburger-menu">
                     <ul>
-                        <li><a href="#">サービス内容</a></li>
-                        <li><a href="#">サービス内容</a></li>
-                        <li><a href="#">サービス内容</a></li>
+                        <li class="ham-text"><a href="#">サービス内容</a></li>
+                        <li class="ham-text"><a href="#">業務用クリーニング</a></li>
+                        <li class="ham-text"><a href="#">サービス内容</a></li>
+                        <li class="ham-text"><a href="#">サービス内容</a></li>
+                        <li class="ham-text"><a href="#">サービス内容</a></li>
+                        <li class="ham-text"><a href="#">サービス内容</a></li>
                     </ul>
                 </div>
             </nav>
@@ -63,6 +67,7 @@
                 <span></span>
                 <span></span>
             </div>
+            <div class="mask"></div>
         </div>
     </section>
 
@@ -86,6 +91,10 @@
 
         <div class="news-content">
             <dl>
+                <dt>2023.10.9<span class="orange">気まぐれ</span></dt>
+                <dd>コミットしました</dd>
+                <dt>2023.10.9<span class="orange">気まぐれ</span></dt>
+                <dd>ん〜</dd>
                 <dt>2023.10.6<span class="red">重要なお知らせ</span></dt>
                 <dd>ハンバーガーメニューを制作中です</dd>
                 <dt>2023.10.6<span class="blue">テスト</span></dt>
@@ -101,9 +110,11 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="/JS/slider.js"></script>
-    <script src="/JS/menu.js"></script>
-    <script src="/JS/hamburger.js"></script>
+    
+    <!-- PC用のCSS -->
+    <script src="/JS/PC/hamburger.js"></script>
+    <script src="/JS/PC/menu.js"></script>
+    <script src="/JS/PC/slider.js"></script>
 </body>
 
 </html>

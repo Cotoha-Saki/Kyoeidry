@@ -45,7 +45,7 @@
 
 /* お知らせ */
 .news-content {
-    z-index: 997;
+    z-index: 994;
     position: relative;
     background-color: rgb(255, 226, 226);
     top: 35px;
@@ -92,6 +92,15 @@
 
   .news-content dl dt .blue{
     background-color:blue;
+    border-radius:5px;
+    color:#fff;
+    margin:0 20px;
+    padding:5px 15px;
+    text-decoration:none;
+  }
+
+  .news-content dl dt .orange{
+    background-color:rgb(255, 168, 45);
     border-radius:5px;
     color:#fff;
     margin:0 20px;
