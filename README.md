@@ -1,1 +1,2 @@
 # Kyoeidri
+GitHubからのコミットは禁止。

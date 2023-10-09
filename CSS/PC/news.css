@@ -79,6 +79,7 @@
 .news-content dd {
     border-bottom: 1px solid #ccc;
     padding: 15px 0px;
+    margin-left: 220px;
 }
 
 .news-content dl dt .red{
