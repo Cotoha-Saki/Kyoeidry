@@ -43,27 +43,48 @@
     text-decoration: none;
 }
 
-.ft {
-    display: block;
-width: 100%;
-height: 300px;
-background-color: rgb(255, 79, 79);
+.foo1 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(255, 79, 79);
+    padding-top: 29px;
 }
 
-.foo {
+.foo1 ul li {
+    font-family: "KS";
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none;
+    line-height: 40px;
+    transition: 0.2s;
+    border-left: 2px solid rgb(255, 135, 135);
+    border-right: 2px solid rgb(255, 135, 135);
+}
+
+.foo1 ul li a{
+    color: #ffffff;
+}
+
+.foo1 ul li a:hover{
+    color: #ffffff;
+}
+
+.foo2 {
     background-color: rgb(255, 63, 63);
     width: 100%;
     height: 200px;
 }
 
-.foo .foo-text {
+.foo2 .foo-text {
     padding-top: 30px;
     text-align: center;
 }
 
-.foo .foo-text .foo-sp
-,.foo .foo-text p .map
-,.foo .foo-text p .tel{
+.foo2 .foo-text .foo-sp,
+.foo2 .foo-text p .map,
+.foo2 .foo-text p .tel {
     font-family: "KS";
     color: rgb(255, 255, 255);
     transition: 0.5s;
@@ -71,7 +92,7 @@ background-color: rgb(255, 79, 79);
 }
 
 /* コピーライト */
-.foo .CopyRight {
+.foo2 .CopyRight {
     color: rgb(255, 255, 255);
     display: block;
     position: relative;

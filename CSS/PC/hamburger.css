@@ -68,7 +68,6 @@ nav .hamburger-menu {
 }
 
 nav .hamburger-menu ul li {
-  margin: 10px 0;
   font-family: "KB";
   display: block;
   transition: all 0.2s;
@@ -81,17 +80,21 @@ nav .hamburger-menu ul {
 }
 
 nav .hamburger-menu ul li a {
+  font-family: "KR";
   display: inline-block;
   text-decoration: none;
-  border: 2px 0 solid #ffffff;
+  border: 2px 0 solid #ff8383;
   transition: all 0.3s;
   margin: 25px 0;
-  color: rgb(255, 255, 255);
+  color: rgb(213, 213, 213);
+}
+
+nav .hamburger-menu ul li {
+  color: #ffffff;
 }
 
 nav .hamburger-menu ul li a:hover {
-  color: red;
-  opacity: 1;
+  opacity: 0.5;
   border-bottom: 0;
 }
 
