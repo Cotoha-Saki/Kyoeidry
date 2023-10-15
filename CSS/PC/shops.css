@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* フォント読み込み */
+@font-face {
+    font-family: 'Gn3';
+    src: url(/font/genshingothic-20150607/GenShinGothic-P-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'NSJ';
+    src: url(/font/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'KB';
+    src: url(/font/Koruri-20210720/Koruri-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'KE';
+    src: url(/font/Koruri-20210720/Koruri-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: 'KL';
+    src: url(/font/Koruri-20210720/Koruri-Light.ttf);
+}
+
+@font-face {
+    font-family: 'KR';
+    src: url(/font/Koruri-20210720/Koruri-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'KS';
+    src: url(/font/Koruri-20210720/Koruri-Semibold.ttf);
+}
+
+/* リセット */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.shops {
+    background-color: rgb(255, 214, 214);
+    margin-bottom: 200px;
+    width: 100%;
+    height: 600px;
+}
+
+.shops .shops-maintext {
+    text-align: center;
+    font-size: 50px;
+    font-family: "KE";
+}
+
+.shops img{
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-right: 70px;
+    position: absolute;
+}
+
+.shops .shops-text {
+    text-align: start;
+    font-family: "KB";
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.shops .shops-text p{
+    font-size: 35px;
+    text-align: start;
+    padding-left: 800px;
+}
