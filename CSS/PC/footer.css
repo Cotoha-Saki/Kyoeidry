@@ -57,7 +57,7 @@ footer {
 }
 
 .foo1 ul li ul li {
-    font-size: 14px;
+    font-size: 13px;
     font-family: "KS";
     padding-left: 15px;
     padding-right: 15px;
@@ -76,24 +76,26 @@ footer {
 }
 
 .foo1 .foo-all-ul{
-    padding: 0  500px;
+    padding: 0  600px;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-around;
 }
 
+.foo1 ul li ul li {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .foo1 ul li h2{
     display: block;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .foo1 ul li h2 a {
     color: #ffffff;
 }
 
-.foo1 ul .foo-home {
-    list-style: none;
-}
 .foo1 ul .foo-service {
     list-style: none;
 }
@@ -102,6 +104,12 @@ footer {
 }
 .foo1 ul .foo-shop {
     list-style: none;
+}
+
+.foo1 ul .foo-shop ul li a {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(5, auto);
 }
 
 .foo2 {
