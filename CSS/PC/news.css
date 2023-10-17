@@ -47,7 +47,6 @@
 .news-content {
     z-index: 994;
     position: relative;
-    background-color: rgb(255, 226, 226);
     top: 35px;
     height: 300px;
     padding: 10px 0;
