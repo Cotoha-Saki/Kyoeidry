@@ -46,48 +46,66 @@
     }
 
     .services {
-        margin-top: 300px;justify-content: center;
+        padding-top: 200px;
     }
 
     .services ul {
         text-align: center;
-        color: red;
     }
 
     .services ul li {
+        font-family: "KS";
+        font-size: 18px;
         list-style: none;
         display: inline-block;
         margin: auto;
         margin-left: 30px;
         margin-right: 30px;
         transition: all 0.2s;
-        color: red;
+        border-bottom: 2px solid rgb(255, 56, 56);
     }
 
     .services ul li:hover {
         opacity: 0.5;
     }
 
+    .services ul li a {
+        color: rgb(255, 56, 56);
+    }
+
+    .delivery {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-top: 3px double red;
+        border-bottom: 3px double red;
+    }
+
     .delivery .delivery-text {
-        text-align: left;
-        margin-left: 250px;
+        position: relative;
+        display: inline-block;
         font-size: 50px;
         font-family: "KB";
-        padding-top: 150px;
+        text-align: left;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        left: 250px;
     }
 
     .delivery-content {
         display: flex;
-        justify-content: left;
-        margin-left: 270px;
+        position: relative;
         margin-top: 30px;
+        margin-bottom: 100px;
+        margin: 0 0 100px 300px;
     }
 
     .delivery .delivery-content table tr th {
         font-size: 20px;
     }
 
-    .tableWrap {}
+    .delivery .delivery-content .delivery-img {
+        margin-left: 200px;
+    }
 
     .tableWrap th {
         background: #eee;
