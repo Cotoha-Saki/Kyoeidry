@@ -75,8 +75,7 @@
 
     .delivery {
         margin-top: 100px;
-        margin-bottom: 100px;
-        border-top: 3px double red;
+        margin-bottom: 600px;
         border-bottom: 3px double red;
     }
 
@@ -85,7 +84,9 @@
         font-size: 50px;
         font-family: "KB";
         text-align: center;
-        margin-top: 100px;
+        margin-top: 150px;
+        padding: 10px 10px;
+        background-color: rgb(255, 75, 75);
     }
 
     .delivery .DLPR-text {
@@ -95,6 +96,27 @@
         text-align: center;
         margin-top: 100px;
         margin-bottom: 100px;
+    }
+
+    .delivery .DLPR-text .DLPR-text-span1{
+        color: red;
+        font-size: 30px;
+    }
+
+    .delivery .DLPR-text .DLPR-text-span2{
+        color: red;
+        font-size: 30px;
+    }
+
+    .delivery .DLPR-text2 {
+        color: red;
+        position: relative;
+        font-size: 35px;
+        font-family: "KB";
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
     }
 
     .delivery-content {
