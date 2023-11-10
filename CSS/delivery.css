@@ -79,6 +79,7 @@
 
     .delivery .delivery-text {
         position: relative;
+        color: rgb(255, 255, 255);
         font-size: 50px;
         font-family: "KB";
         text-align: center;
@@ -138,6 +139,7 @@
     }
 
     .gyomu .gyomu-text {
+        color: rgb(255, 255, 255);
         position: relative;
         font-size: 50px;
         font-family: "KB";
@@ -164,6 +166,51 @@
         position: relative;
         margin: auto;
         width: 50%;
+    }
+
+    .sonota {
+        margin-top: 100px;
+    }
+
+    .sonota .sonota-text {
+        color: rgb(255, 255, 255);
+        position: relative;
+        font-size: 50px;
+        font-family: "KB";
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px 10px;
+        background-color: rgb(255, 75, 75);
+    }
+
+    .sonota .SNTPR-text {
+        color: rgb(0, 0, 0);
+        position: relative;
+        font-size: 35px;
+        font-family: "KB";
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .sonota .SNTPR-test-content {
+        color: rgb(0, 0, 0);
+        position: relative;
+        font-size: 20px;
+        font-family: "KB";
+        text-align: right;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .sonota .sonota-img {
+        position: relative;
+        padding-left: 100px;
+        width: 30%;
     }
 
     .tableWrap th {
