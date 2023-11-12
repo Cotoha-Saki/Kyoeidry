@@ -83,7 +83,6 @@
         font-size: 50px;
         font-family: "KB";
         text-align: center;
-        margin-top: 150px;
         padding: 10px 10px;
         background-color: rgb(255, 75, 75);
     }
@@ -97,12 +96,12 @@
         margin-bottom: 100px;
     }
 
-    .delivery .DLPR-text .DLPR-text-span1{
+    .delivery .DLPR-text .DLPR-text-span1 {
         color: red;
         font-size: 30px;
     }
 
-    .delivery .DLPR-text .DLPR-text-span2{
+    .delivery .DLPR-text .DLPR-text-span2 {
         color: red;
         font-size: 30px;
     }
@@ -115,7 +114,7 @@
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
-        
+
     }
 
     .delivery-content {
@@ -159,7 +158,7 @@
         margin-bottom: 50px;
         padding-left: 100px;
         padding-right: 100px;
-        
+
     }
 
     .gyomu .gyomu-img {
@@ -180,9 +179,10 @@
 
     .sonota {
         margin-top: 100px;
+        margin-bottom: 200px;
     }
 
-    .sonota .sonota-text {
+    .sonota-text {
         color: rgb(255, 255, 255);
         position: relative;
         font-size: 50px;
@@ -193,35 +193,190 @@
         background-color: rgb(255, 75, 75);
     }
 
-    .sonota .SNTPR-text {
-        color: rgb(0, 0, 0);
+    .sonota {
+        display: flex;
+    }
+
+    .sonota .kuri-ningu {
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .sonota .kuri-ningu-title {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-weight: bold;
+        font-size: 25px;
+        color: red;
+    }
+
+    .sonota .sonota-kuriimg {
+        width: 640px;
+        /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
         position: relative;
-        font-size: 35px;
-        font-family: "KB";
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
     }
 
-    .sonota .SNTPR-test-content {
-        color: rgb(0, 0, 0);
-        font-size: 20px;
-        font-family: "KB";
-        text-align: right;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
+    .sonota .kuri-ningu-content {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
     }
 
-    .sonota .sonota-img {
+    .sonota .sonota-kuriimg {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .sonota .sonota-kuriimg::before {
+        content: "";
+        display: block;
+        padding-top: 58%;
+    }
+
+    .sonota .sonota-kuriimg img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .sonota .sonota-kuriimg {
+        display: block;
+        padding-left: 100px;
+        width: 30%;
+    }
+    
+    .crad-bags {
+        display: flex;
+        margin-bottom: 200px;
+    }
+
+    .crad-bags .crad-bag{
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .crad-bags .crad-bag .crad-bag-title {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-weight: bold;
+        font-size: 25px;
+        color: red;
+    }
+
+    .crad-bags .crad-bag-img {
+        width: 550px;
+        /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .crad-bags .crad-bag .crad-bag-content {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .crad-bags .crad-bag-img {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .crad-bags .crad-bag-img::before {
+        content: "";
+        display: block;
+        padding-top: 58%;
+    }
+
+    .crad-bags .crad-bag-img img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .crad-bags .crad-bag-img {
         display: block;
         padding-left: 100px;
         width: 30%;
     }
 
+    .hangers {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .hangers .hanger{
+        margin: 0 0 0 20px;
+        padding: 0;
+    }
+
+    .hangers .hanger .hanger-title {
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-weight: bold;
+        font-size: 25px;
+        color: red;
+    }
+
+    .hangers .hanger-img {
+        width: 550px;
+        /*画像サイズ指定*/
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .hangers .hanger .hanger-content {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .hangers .hanger-img {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .hangers .hanger-img::before {
+        content: "";
+        display: block;
+        padding-top: 58%;
+    }
+
+    .hangers .hanger-img img {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .hangers .hanger-img {
+        display: block;
+        padding-left: 100px;
+        width: 30%;
+    }
     .tableWrap th {
         background: #eee;
     }
