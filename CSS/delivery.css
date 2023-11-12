@@ -168,6 +168,16 @@
         width: 50%;
     }
 
+    .GMPR-text-span1 {
+        color: red;
+        font-size: 30px;
+    }
+
+    .GMPR-text-span2 {
+        color: red;
+        font-size: 30px;
+    }
+
     .sonota {
         margin-top: 100px;
     }
@@ -197,7 +207,6 @@
 
     .sonota .SNTPR-test-content {
         color: rgb(0, 0, 0);
-        position: relative;
         font-size: 20px;
         font-family: "KB";
         text-align: right;
@@ -208,7 +217,7 @@
     }
 
     .sonota .sonota-img {
-        position: relative;
+        display: block;
         padding-left: 100px;
         width: 30%;
     }
