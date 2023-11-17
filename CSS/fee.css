@@ -45,7 +45,47 @@
         text-decoration: none;
     }
 
-    
+    .fee {
+        padding-top: 200px;
+    }
+
+    .fee .fee-text {
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-family: "KB";
+        text-align: center;
+        padding: 10px 10px;
+        margin-bottom: 100px;
+        background-color: rgb(255, 75, 75);
+    }
+
+    .fee .fee-table {
+        display: flex;
+        position: relative;
+        margin-top: 400px;
+        margin-bottom: 100px;
+        margin: 0 0 100px 300px;
+    }
+
+    .tableWrap th {
+        background: #eee;
+    }
+
+    .tableWrap,
+    td,
+    th {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+
+    .tableWrap th,
+    .tableWrap td {
+        text-align: center;
+        min-width: 130px;
+        padding: 10px;
+        height: 30px;
+    }
 }
 
 @media screen and (max-width: 1279px) {
