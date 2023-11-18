@@ -86,6 +86,51 @@
         padding: 10px;
         height: 30px;
     }
+
+    .fee .fee-table2 {
+        display: flex;
+        position: relative;
+        margin-top: 400px;
+        margin-bottom: 100px;
+        margin: 0 0 15px 300px;
+    }
+
+    .tableWrap2 th {
+        background: #eee;
+    }
+
+    .tableWrap2,
+    td,
+    th {
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+    }
+
+    .tableWrap2 th,
+    .tableWrap2 td {
+        text-align: center;
+        min-width: 130px;
+        padding: 10px;
+        height: 30px;
+    }
+
+    .fee .fee-text2 {
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-family: "KB";
+        text-align: center;
+        padding: 10px 10px;
+        margin-bottom: 100px;
+        background-color: rgb(255, 75, 75);
+    }
+
+    .fee .simi-ase {
+        margin-left: 300px;
+        margin-bottom: 100px;
+        font-family: "KB";
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 1279px) {
