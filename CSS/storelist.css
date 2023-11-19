@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* フォント読み込み */
+@font-face {
+    font-family: 'Gn3';
+    src: url(/font/genshingothic-20150607/GenShinGothic-P-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'NSJ';
+    src: url(/font/Noto_Sans_JP/NotoSansJP-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'KB';
+    src: url(/font/Koruri-20210720/Koruri-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'KE';
+    src: url(/font/Koruri-20210720/Koruri-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: 'KL';
+    src: url(/font/Koruri-20210720/Koruri-Light.ttf);
+}
+
+@font-face {
+    font-family: 'KR';
+    src: url(/font/Koruri-20210720/Koruri-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'KS';
+    src: url(/font/Koruri-20210720/Koruri-Semibold.ttf);
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* リセット */
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+}
