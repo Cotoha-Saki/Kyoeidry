@@ -118,11 +118,21 @@
     }
 
     .delivery .DLPR-text3 {
+        color: red;
         position: relative;
         font-size: 25px;
         font-family: "KB";
         text-align: center;
     }
+
+    .delivery .DLPR-text3-1 {
+        position: relative;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: "KB";
+        text-align: center;
+    }
+
     .delivery .DLPR-text4 {
         position: relative;
         font-size: 25px;
