@@ -51,12 +51,12 @@
 
     <div class="storelist-all">
         <div class="storelist-text">
-            <label for="area">地域を選択してください</label>
+            <label for="store"></label>
         </div>
     
         <div class="storelists">
             <select class="form-control" id="storelist" onchange="viewChange();">
-                <option value="">全て</option>
+                <option value="select0">選択してください</option>
                 <option value="select1">鴻巣市</option>
                 <option value="select2">北本市</option>
                 <option value="select3">桶川市</option>
@@ -73,44 +73,51 @@
         </div>
     
         <div class="col-auto my-5">
-            <div id="Box1" class="my-5">
-                <p>全地域</p>
+            <div id="Box0" class="my">
+                <p>地域が選択されていません上のメニューから地域を選択してください。</p>
             </div>
-            <div id="Box2" class="my-5">
-                <p>鴻巣市</p>
+            <div id="Box1" class="my-5" style="display:none;">
+                <p>鴻巣市の店舗一覧です</p>
+                <p class="hon">本店</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d805.937053727954!2d139.5410163!3d36.0996253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cd4f710ca5d9%3A0xfd3fbd5bbc2ec8eb!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmnKzlupc!5e0!3m2!1sja!2sjp!4v1700650546832!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="kkn">北鴻巣西口店</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12897.23270419552!2d139.475745!3d36.085975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2d7831725a0f%3A0x4330c6c299266e1b!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Popb_lj6Plupc!5e0!3m2!1sja!2sus!4v1700651139709!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="kk">北鴻巣店</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51588.93573289899!2d139.44484521049998!3d36.08596750869395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2cd258ad199d%3A0xae967d27bbf60b8d!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Plupc!5e0!3m2!1sja!2sus!4v1700651229763!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
             </div>
-            <div id="Box3" class="my-5">
-                <p>北本市</p>
+            <div id="Box2" class="my-5" style="display:none;">
+                <p>北本市の店舗一覧です</p>
             </div>
-            <div id="Box4" class="my-5">
-                <p>桶川市</p>
+            <div id="Box3" class="my-5" style="display:none;">
+                <p>桶川市の店舗一覧です</p>
             </div>
-            <div id="Box5" class="my-5">
-                <p>上尾市</p>
+            <div id="Box4" class="my-5" style="display:none;">
+                <p>上尾市の店舗一覧です</p>
             </div>
-            <div id="Box6" class="my-5">
-                <p>さいたま市</p>
+            <div id="Box5" class="my-5" style="display:none;">
+                <p>さいたま市の店舗一覧です</p>
             </div>
-            <div id="Box7" class="my-5">
-                <p>熊谷市</p>
+            <div id="Box6" class="my-5" style="display:none;">
+                <p>熊谷市の店舗一覧です</p>
             </div>
-            <div id="Box8" class="my-5">
-                <p>久喜市</p>
+            <div id="Box7" class="my-5" style="display:none;">
+                <p>久喜市の店舗一覧です</p>
             </div>
-            <div id="Box9" class="my-5">
-                <p>新座市</p>
+            <div id="Box8" class="my-5" style="display:none;">
+                <p>新座市の店舗一覧です</p>
             </div>
-            <div id="Box10" class="my-5">
-                <p>戸田市</p>
+            <div id="Box9" class="my-5" style="display:none;">
+                <p>戸田市の店舗一覧です</p>
             </div>
-            <div id="Box11" class="my-5">
-                <p>幸手市</p>
+            <div id="Box10" class="my-5" style="display:none;">
+                <p>幸手市の店舗一覧です</p>
             </div>
-            <div id="Box12" class="my-5">
-                <p>加須市</p>
+            <div id="Box11" class="my-5" style="display:none;">
+                <p>加須市の店舗一覧です</p>
             </div>
-            <div id="Box13" class="my-5">
-                <p>白岡市</p>
+            <div id="Box12" class="my-5" style="display:none;">
+                <p>白岡市の店舗一覧です</p>
             </div>
         </div>
     </div>
@@ -155,6 +162,7 @@
         <span class="CopyRight">Copyright © 2023 KotohaSaki All Rights Reserved.</span>
     </div>
 
+    <script src="/JS/storelist.js"></script>
 </body>
 
 </html>

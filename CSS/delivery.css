@@ -93,7 +93,7 @@
         font-family: "KB";
         text-align: center;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
 
     .delivery .DLPR-text .DLPR-text-span1 {
@@ -104,6 +104,22 @@
     .delivery .DLPR-text .DLPR-text-span2 {
         color: red;
         font-size: 30px;
+    }
+
+    .delivery .DTSs {
+        padding-left: 300px;
+        padding-right: 300px;
+        font-size: 20px;
+        font-family: "KB";
+        text-align: left;
+    }
+    .delivery .syosai {
+        padding-left: 230px;
+        padding-right: 230px;
+        padding-top: 30px;
+        font-size: 20px;
+        font-family: "KB";
+        text-align: left;
     }
 
     .delivery .DLPR-text2 {
