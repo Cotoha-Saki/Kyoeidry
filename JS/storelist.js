@@ -31,6 +31,7 @@ function viewChange(){
             document.getElementById('Box11').style.display = "none";
             document.getElementById('Box12').style.display = "none";
         }else if(id == 'select2'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "";
             document.getElementById('Box3').style.display = "none";
@@ -45,6 +46,7 @@ function viewChange(){
             document.getElementById('Box12').style.display = "none";
         }
         else if(id == 'select3'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "";
@@ -59,6 +61,7 @@ function viewChange(){
             document.getElementById('Box12').style.display = "none";
         }
         else if(id == 'select4'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -74,6 +77,7 @@ function viewChange(){
         }
 
         else if(id == 'select5'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -89,6 +93,7 @@ function viewChange(){
         }
 
         else if(id == 'select6'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -104,6 +109,7 @@ function viewChange(){
         }
 
         else if(id == 'select7'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -119,6 +125,7 @@ function viewChange(){
         }
 
         else if(id == 'select8'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -134,6 +141,7 @@ function viewChange(){
         }
 
         else if(id == 'select9'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -149,6 +157,7 @@ function viewChange(){
         }
 
         else if(id == 'select10'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -164,6 +173,7 @@ function viewChange(){
         }
 
         else if(id == 'select11'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";
@@ -179,6 +189,7 @@ function viewChange(){
         }
 
         else if(id == 'select12'){
+            document.getElementById('Box0').style.display = "none";
             document.getElementById('Box1').style.display = "none";
             document.getElementById('Box2').style.display = "none";
             document.getElementById('Box3').style.display = "none";

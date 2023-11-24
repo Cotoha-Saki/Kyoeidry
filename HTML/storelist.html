@@ -53,7 +53,7 @@
         <div class="storelist-text">
             <label for="store"></label>
         </div>
-    
+
         <div class="storelists">
             <select class="form-control" id="storelist" onchange="viewChange();">
                 <option value="select0">選択してください</option>
@@ -71,53 +71,174 @@
                 <option value="select12">白岡市</option>
             </select>
         </div>
-    
-        <div class="col-auto my-5">
+
+        <div class="boxs">
             <div id="Box0" class="my">
-                <p>地域が選択されていません上のメニューから地域を選択してください。</p>
+                <p class="itiran">地域が選択されていません上のメニューから地域を選択してください。</p>
             </div>
             <div id="Box1" class="my-5" style="display:none;">
-                <p>鴻巣市の店舗一覧です</p>
-                <p class="hon">本店</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d805.937053727954!2d139.5410163!3d36.0996253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cd4f710ca5d9%3A0xfd3fbd5bbc2ec8eb!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmnKzlupc!5e0!3m2!1sja!2sjp!4v1700650546832!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p class="kkn">北鴻巣西口店</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12897.23270419552!2d139.475745!3d36.085975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2d7831725a0f%3A0x4330c6c299266e1b!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Popb_lj6Plupc!5e0!3m2!1sja!2sus!4v1700651139709!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p class="kk">北鴻巣店</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51588.93573289899!2d139.44484521049998!3d36.08596750869395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2cd258ad199d%3A0xae967d27bbf60b8d!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Plupc!5e0!3m2!1sja!2sus!4v1700651229763!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+                <p class="itiran">鴻巣市の店舗一覧です</p>
+                <p class="KL">本店</p>
+                <p class="KLtx">埼玉県鴻巣市新井252<br>
+                    TEL 048-569-2222<br>
+                    営業時間：9:00〜18:00<br>
+                    定休日：木曜、日曜、祝日<br>
+                    年末年始：12/30～1/4<br></p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d805.937053727954!2d139.5410163!3d36.0996253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cd4f710ca5d9%3A0xfd3fbd5bbc2ec8eb!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmnKzlupc!5e0!3m2!1sja!2sjp!4v1700650546832!5m2!1sja!2sjp"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">北鴻巣西口店</p>
+                <p>
+                    埼玉県鴻巣市すみれ野4-16<br>
+                    TEL048-597-2871<br>
+                    営業時間：14:00〜19:00<br>
+                    定休日：月曜、水曜、木曜<br>
+                    年末年始：12/29～1/6<br>
+                </p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12897.23270419552!2d139.475745!3d36.085975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2d7831725a0f%3A0x4330c6c299266e1b!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Popb_lj6Plupc!5e0!3m2!1sja!2sus!4v1700651139709!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">北鴻巣店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51588.93573289899!2d139.44484521049998!3d36.08596750869395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f2cd258ad199d%3A0xae967d27bbf60b8d!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfptLvlt6Plupc!5e0!3m2!1sja!2sus!4v1700651229763!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">鴻巣東口店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.3353117711154!2d139.51101657626214!3d36.06092467246718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d289eb0b80ed%3A0x73ebce3eb505b721!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDptLvlt6PmnbHlj6Plupc!5e0!3m2!1sja!2sus!4v1700733670894!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">鴻巣西口店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12901.777155314832!2d139.505515!3d36.058266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d2f5246b9845%3A0xdae6aee48798bef5!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDptLvlt6Popb_lj6Plupc!5e0!3m2!1sja!2sus!4v1700733771310!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">ビチューズ店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12900.840106160114!2d139.525819!3d36.063981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d27fc96e73cd%3A0x124366ef978d68b4!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDjg5Pjg7vjg4Hjg6Xjg7zjgrrlupc!5e0!3m2!1sja!2sus!4v1700733871956!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="KL">人形町店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12903.300918227162!2d139.521026!3d36.048971!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018d273db032701%3A0x190145872029879b!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDkurrlvaLnlLrlupc!5e0!3m2!1sja!2sus!4v1700766295037!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box2" class="my-5" style="display:none;">
-                <p>北本市の店舗一覧です</p>
+                <p class="itiran">北本市の店舗一覧です</p>
+                <p class="KTL">北本店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.5049840444317!2d139.5300118746455!3d36.03183712301359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cdfe1acc2157%3A0x21c9352361b56138!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDljJfmnKzlupc!5e0!3m2!1sja!2sus!4v1700772303169!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box3" class="my-5" style="display:none;">
-                <p>桶川市の店舗一覧です</p>
+                <p class="itiran">桶川市の店舗一覧です</p>
+                <p class="OL">桶川朝日店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12912.926451287198!2d139.565465!3d35.990207!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cfa1dade228d%3A0xe3abc04fea516719!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmnJ3ml6Xlupc!5e0!3m2!1sja!2sus!4v1700772122312!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box4" class="my-5" style="display:none;">
-                <p>上尾市の店舗一覧です</p>
+                <p class="itiran">上尾市の店舗一覧です</p>
+                <p class="AL">上尾東口店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12915.395017479073!2d139.591692!3d35.975123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c5f25582af59%3A0x6c9406d2b6656c4b!2z5pel5pys44CB44CSMzYyLTAwMzYg5Z-8546J55yM5LiK5bC-5biC5a6u5pys55S677yZ4oiS77yS77yR!5e0!3m2!1sja!2sus!4v1700771948691!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <p class="AL">中妻店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12913.98000551586!2d139.57054!3d35.98377000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cf77bc08fc71%3A0x7f47551136ba46fb!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDkuK3lprvlupc!5e0!3m2!1sja!2sus!4v1700772006935!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="AL">春日店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12915.185410698658!2d139.581304!3d35.97640400000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c5884cdb0ca5%3A0x33d9b2463368bfb2!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmmKXml6Xlupc!5e0!3m2!1sja!2sus!4v1700772063053!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box5" class="my-5" style="display:none;">
-                <p>さいたま市の店舗一覧です</p>
+                <p class="itiran">さいたま市の店舗一覧です</p>
+                <p class="SL">日進店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12922.915967185158!2d139.605941!3d35.929133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c41e99de7ec5%3A0xcbf3d29bce1cebec!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDml6XpgLLlupc!5e0!3m2!1sja!2sus!4v1700767076207!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <p class="SL">吉野町店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12918.10770536546!2d139.601321!3d35.958541!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c5da8307b525%3A0xa6386b2874e56789!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDlkInph47nlLrlupc!5e0!3m2!1sja!2sus!4v1700771814672!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="SL">与野店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12930.115282102308!2d139.636066!3d35.885062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c1a417136f8f%3A0x95b560eee448ae64!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDkuI7ph47lupc!5e0!3m2!1sja!2sus!4v1700766513447!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box6" class="my-5" style="display:none;">
-                <p>熊谷市の店舗一覧です</p>
+                <p class="itiran">熊谷市の店舗一覧です</p>
+                <p class="KGL">熊谷上之店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12887.2922824732!2d139.40516!3d36.146521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f29a09727a68f%3A0x3dbffc993097be00!2z5pel5pys44CB44CSMzYwLTAwMTIg5Z-8546J55yM54aK6LC35biC5LiK5LmL77yS77yV77yY77yY4oiS77yR!5e0!3m2!1sja!2sus!4v1700772716881!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box7" class="my-5" style="display:none;">
-                <p>久喜市の店舗一覧です</p>
+                <p class="itiran">久喜市の店舗一覧です</p>
+                <p class="KUL">鷲宮中央店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12895.62718161777!2d139.658388!3d36.09576!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ca30d3464a29%3A0xd7fa9d9464d2e5f4!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDpt7Llrq7kuK3lpK7lupc!5e0!3m2!1sja!2sus!4v1700772449941!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box8" class="my-5" style="display:none;">
-                <p>新座市の店舗一覧です</p>
+                <p class="itiran">新座市の店舗一覧です</p>
+                <p class="SZL">新座店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12943.454687213009!2d139.557972!3d35.80328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e847e426444d%3A0x2119709362fb6a56!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmlrDluqflupc!5e0!3m2!1sja!2sus!4v1700772502328!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box9" class="my-5" style="display:none;">
-                <p>戸田市の店舗一覧です</p>
+                <p class="itiran">戸田市の店舗一覧です</p>
+                <p class="TL">美女木店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12939.167950882724!2d139.640583!3d35.829579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ea5acee0a6f5%3A0x16255a434cf8aab!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDnvo7lpbPmnKjlupc!5e0!3m2!1sja!2sus!4v1700772367966!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box10" class="my-5" style="display:none;">
-                <p>幸手市の店舗一覧です</p>
+                <p class="itiran">幸手市の店舗一覧です</p>
+                <p class="STL">幸手店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12898.81439538222!2d139.726506!3d36.076333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018b6538c695555%3A0x9002c22db04663b7!2z44Kv44Oq44O844OL44Oz44Kw44GN44KH44GG44GI44GE44OJ44Op44KkIOW5uOaJi-W6lw!5e0!3m2!1sja!2sus!4v1700772537674!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="STL">みどり台店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!3m2!1sja!2sus!4v1700772668603!5m2!1sja!2sus!6m8!1m7!1szFtSsan2jCqklWYoOZh7kA!2m2!1d36.06115009161626!2d139.7213423180332!3f3.4352453!4f0!5f0.7820865974627469"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box11" class="my-5" style="display:none;">
-                <p>加須市の店舗一覧です</p>
+                <p class="itiran">加須市の店舗一覧です</p>
+                <p class="KZL">久下店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12891.311327949415!2d139.6111!3d36.122052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018cb5f340f9ebb%3A0x4bdedae953954be2!2z5pel5pys44CB44CSMzQ3LTAwNjQg5Z-8546J55yM5Yqg6aCI5biC5p2x5qCE77yS5LiB55uu77yR77yV4oiS77yU77yY!5e0!3m2!1sja!2sus!4v1700772798046!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div id="Box12" class="my-5" style="display:none;">
-                <p>白岡市の店舗一覧です</p>
+                <p class="itiran">白岡市の店舗一覧です</p>
+                <p class="SOL">新白岡店</p>
+                <iframe class="Gmap"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12906.047259613772!2d139.673014!3d36.032213!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c815747cc32d%3A0x1fca74ee2c05a186!2z44Kv44Oq44O844OL44Oz44KwIOWFseaghOODieODqeOCpCDmlrDnmb3lsqHlupc!5e0!3m2!1sja!2sus!4v1700772845913!5m2!1sja!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>

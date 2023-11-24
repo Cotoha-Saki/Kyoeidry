@@ -61,6 +61,47 @@
     }
 
     .storelist-all {
-    padding-top: 400px;
+        padding-top: 400px;
+    }
+
+    .KL,
+    .KTL,
+    .OL,
+    .AL,
+    .SL,
+    .KGL,
+    .KUL,
+    .SZL,
+    .KTL,
+    .STL,
+    .KZL,
+    .SOL,
+    .TL {
+        font-family: "KS";
+        font-size: 25px;
+    }
+
+    .boxs {
+    }
+
+    .boxs .my-5 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .boxs .Gmap {
+        display: inline-block;
+        font-family: "KS";
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Gmap {
+        width: 25%;
+    }
+
+    .itiran {
+        font-family: "KS";
+        font-size: 20px;
     }
 }
