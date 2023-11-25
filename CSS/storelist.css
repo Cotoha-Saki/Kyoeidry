@@ -64,8 +64,7 @@
         padding-top: 400px;
     }
 
-    .KL,
-    .KTL,
+    .listspan,
     .OL,
     .AL,
     .SL,
@@ -85,23 +84,29 @@
     }
 
     .boxs .my-5 {
-        display: flex;
-        flex-wrap: wrap;
+        
+
     }
 
     .boxs .Gmap {
-        display: inline-block;
-        font-family: "KS";
+    
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     .Gmap {
-        width: 25%;
+        width: 70%;
     }
 
     .itiran {
         font-family: "KS";
         font-size: 20px;
+    }
+    .list-div {
+        margin: 0 580px;
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(255, 166, 166);
     }
 }
