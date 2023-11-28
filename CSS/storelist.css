@@ -45,6 +45,23 @@
         text-decoration: none;
     }
 
+    .mt {
+        padding-top: 200px;
+        padding-bottom: 70px;
+        font-family: "KS";
+        font-size: 100px;
+        text-align: center;
+    }
+
+    .storelists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
+        border: 1px solid;
+        font-size: 23px;
+    }
+
     .storelist {
         padding-top: 200px;
     }
@@ -61,7 +78,10 @@
     }
 
     .storelist-all {
-        padding-top: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 100px;
     }
 
     .listspan,
@@ -80,33 +100,37 @@
         font-size: 25px;
     }
 
-    .boxs {
-    }
+    .boxs {}
 
     .boxs .my-5 {
-        
-
-    }
-
-    .boxs .Gmap {
-    
-        margin-top: 20px;
-        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* 以降はレイアウトとは無関係です */
+        background: rgb(255, 80, 80);
     }
 
     .Gmap {
-        width: 70%;
+        margin-bottom: 70px;
     }
 
     .itiran {
         font-family: "KS";
         font-size: 20px;
+        margin-bottom: 20px;
+        color: red;
     }
+
     .list-div {
-        margin: 0 580px;
-        padding: 0 20px;
-        display: flex;
-        flex-wrap: wrap;
-        background-color: rgb(255, 166, 166);
+        flex-basis: calc((100% - 20px) / 2);
+        max-width: calc((100% - 20px) / 2);
+        margin-top: 20px;
+        /* 以降はレイアウトとは無関係です */
+        text-align: center;
+        background: rgb(255, 187, 187);
+    }
+
+    .list-t {
+        margin: 15px 0;
     }
 }
