@@ -45,6 +45,11 @@
         text-decoration: none;
     }
 
+    .form-control {
+        width: 150px;
+        height: 35px;  
+    }
+
     .mt {
         padding-top: 200px;
         padding-bottom: 70px;
@@ -52,14 +57,16 @@
         font-size: 100px;
         text-align: center;
     }
+    
+    .my-5 {
+        padding-bottom: 70px;
+    }
 
     .storelists {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-bottom: 100px;
-        border: 1px solid;
-        font-size: 23px;
     }
 
     .storelist {
@@ -81,7 +88,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 226px;
     }
 
     .listspan,
